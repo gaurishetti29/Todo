@@ -15,6 +15,7 @@ const EditTodo = ({ editTodoTask, setEditTodoTask, handleEditCancel }) => {
             onChange={editChangeHandler}
           />
         </td>
+        
         <td className="iconss">
           <i className="fa-sharp fa-solid fa-check" id="deleteBtn"></i>
           <i

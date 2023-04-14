@@ -9,17 +9,43 @@ header {
   display: flex;
   align-items: center;
   font-family: "Kanit", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   justify-content: center;
 //   margin-bottom: 10px;
   height: 80px;
-  background-color: rgb(70,130,180)
+  background-color: aliceblue;
+  
+  .nav-link {
+    font-size: medium;
+    text-align: left;
+  }
 }
+footer {
+  display: flex;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  background-color: aliceblue;
+  justify-content: center;
+  height: 50px;
+}
+.container {
+    padding: 30px;
+    background-image: url("https://media.istockphoto.com/id/664975134/photo/sticky-note-post-it-board-office.jpg?s=612x612&w=0&k=20&c=jovP61sbit5hNkMVumu3g6ErvEKDxfIAEJPlU_aiuoQ=");
+    height: auto;
 
-.main {
-    padding-top: 10px;
-    background-color: rgb(188,212,230);
-    height: 100vh;
+    .Dropdown {
+      background-color:white;
+      width: 310px;
+      border-radius: 5px;
+      border: 1px solid;
+      margin: 10px;
+      height: 39px;
+      padding: 0 10px;
+      border: 1px solid;
+      font-family: "Kanit", sans-serif;
+      font-size: medium;
+      color: rgb(112, 112, 112);
+  }
 }
 
 input {
@@ -28,45 +54,49 @@ input {
   font-family: "Kanit", sans-serif;
   padding-left: 5px;
   width: 300px;
-  height: 27px;
-  margin: auto;
+  height: 37px;
+  margin: 10px;
+  font-size: medium;
 }
 
 table {
   border-collapse: collapse;
-  text-align: center;
-  width: 450px;
+  text-align: left;
+  width: 900px;
   border: 1px solid;
   padding: 10px;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 50px;
+  font-size: medium;
+  height: auto;
 }
 
 table,
 th {
-  font-size: 15px;
+  font-size: 21px;
   border: 1px solid;
+  padding: 5px;
 }
 
 th {
   height: 30px;
-  background-color: rgb(70,130,180);
+  background-color: whitesmoke;
 }
 
 tr {
-    height: 28px;
-    background-color: white;
+  height: 28px;
+    background-color: rgb(255, 247, 247);
 }
 
 td {
   border: 1px solid;
   text-align: left;
-
   font-family: "Kanit", sans-serif;
 }
 
 .taskInp {
       padding-left: 14px;
+      
 }
 
 .actions {
@@ -75,6 +105,18 @@ td {
 
 .iconss {
     text-align: center;
+    background-color: rgb(255, 255, 255);
+
+    .deadline {
+      padding: 5px;
+      background-color: rgba(150, 142, 142, 0.782);
+      font-size:small;
+      text-align: center;
+      width: 100px;
+    }
+    .Dropdown {
+      width: auto;
+    }
 }
 
 .checkbx {
@@ -83,13 +125,16 @@ td {
 .addBtn {
     border: 1.4px solid;
   border-radius: 5px;
-  background-color: rgb(219, 130, 130);
+  background-color: rgb(51, 131, 156);
   margin-left: 10px;
-  height: 25px;
-  width: 60px;
+  height: 41px;
+  width: 100px;
   margin-top: 10px;
   margin-bottom: 20px;
   font-family: "Kanit", sans-serif;
+  color: white;
+  font-size: medium;
+  font-weight: bold
 }
 
 #editBtn {
@@ -105,7 +150,26 @@ td {
   cursor: pointer;
   margin-left: 4px;
 }
-
+.catHead {
+  background-color: rgb(218, 131, 146);
+  color: white;
+  padding: 5px;
+}
+.catHead2 {
+  background-color: rgb(118, 118, 161);
+  color: white;
+  padding: 5px;
+}
+.catHead3 {
+  background-color: rgb(214, 214, 80);
+  color: white;
+  padding: 5px;
+}
+.catHead4 {
+  background-color: rgb(142, 219, 151);
+  color: white;
+  padding: 5px;
+}
 #mainEditBtn {
   display: none;
 }
